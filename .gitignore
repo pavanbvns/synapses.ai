@@ -1,0 +1,9 @@
+
+models/LLM/*
+processed_dir/*
+jobs.db
+payload.json
+tests/*
+wslvenv/*
+test_files/*
+installer_files/*

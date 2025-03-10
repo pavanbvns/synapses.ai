@@ -1,0 +1,800 @@
+[
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml.c.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml.c",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml.c",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml.c.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml-alloc.c.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-alloc.c",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-alloc.c",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-alloc.c.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-backend.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-backend.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-backend.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-backend.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-opt.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-opt.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-opt.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-opt.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/ggml-threading.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-threading.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-threading.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-threading.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/ggml-base.dir/ggml-quants.c.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-quants.c",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-quants.c",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/ggml-quants.c.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_base_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml-base.dir/gguf.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/gguf.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/gguf.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-base.dir/gguf.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.c",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.c.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-aarch64.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-aarch64.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-hbm.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-hbm.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/cc -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu11 -fPIC -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-quants.c",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-quants.c.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/ggml-cpu-traits.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/ggml-cpu-traits.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/amx/amx.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/amx.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/amx/mmq.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/amx/mmq.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_BUILD -DGGML_BACKEND_SHARED -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU_AARCH64 -DGGML_USE_LLAMAFILE -DGGML_USE_OPENMP -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_cpu_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -march=native -fopenmp -o CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-cpu/llamafile/sgemm.cpp",
+  "output": "ggml/src/CMakeFiles/ggml-cpu.dir/ggml-cpu/llamafile/sgemm.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_BUILD -DGGML_SCHED_MAX_COPIES=4 -DGGML_SHARED -DGGML_USE_CPU -D_GNU_SOURCE -D_XOPEN_SOURCE=600 -Dggml_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -std=gnu++17 -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-backend-reg.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/ggml-backend-reg.cpp",
+  "output": "ggml/src/CMakeFiles/ggml.dir/ggml-backend-reg.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-adapter.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-adapter.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-adapter.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-adapter.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-arch.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-arch.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-arch.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-arch.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-batch.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-batch.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-batch.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-batch.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-chat.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-chat.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-chat.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-chat.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-context.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-context.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-context.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-context.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-grammar.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-grammar.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-grammar.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-grammar.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-hparams.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-hparams.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-hparams.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-hparams.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-impl.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-impl.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-impl.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-impl.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-kv-cache.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-kv-cache.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-kv-cache.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-kv-cache.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-mmap.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-mmap.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-mmap.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-mmap.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-model-loader.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-model-loader.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-model-loader.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-model-loader.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-model.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-quant.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-quant.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-quant.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-quant.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-sampling.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-sampling.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-sampling.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-sampling.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/llama-vocab.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-vocab.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/llama-vocab.cpp",
+  "output": "src/CMakeFiles/llama.dir/llama-vocab.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/unicode.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/unicode.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/unicode.cpp",
+  "output": "src/CMakeFiles/llama.dir/unicode.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -Dllama_EXPORTS -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama.dir/unicode-data.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/unicode-data.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/unicode-data.cpp",
+  "output": "src/CMakeFiles/llama.dir/unicode-data.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++   -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/build_info.dir/build-info.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/build-info.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/build-info.cpp",
+  "output": "common/CMakeFiles/build_info.dir/build-info.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/arg.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/arg.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/arg.cpp",
+  "output": "common/CMakeFiles/common.dir/arg.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/chat.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/chat.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/chat.cpp",
+  "output": "common/CMakeFiles/common.dir/chat.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/common.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/common.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/common.cpp",
+  "output": "common/CMakeFiles/common.dir/common.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/console.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/console.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/console.cpp",
+  "output": "common/CMakeFiles/common.dir/console.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/json-schema-to-grammar.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/json-schema-to-grammar.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/json-schema-to-grammar.cpp",
+  "output": "common/CMakeFiles/common.dir/json-schema-to-grammar.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/llguidance.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/llguidance.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/llguidance.cpp",
+  "output": "common/CMakeFiles/common.dir/llguidance.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/log.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/log.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/log.cpp",
+  "output": "common/CMakeFiles/common.dir/log.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/ngram-cache.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/ngram-cache.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/ngram-cache.cpp",
+  "output": "common/CMakeFiles/common.dir/ngram-cache.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/sampling.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/sampling.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/sampling.cpp",
+  "output": "common/CMakeFiles/common.dir/sampling.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/common.dir/speculative.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/speculative.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/speculative.cpp",
+  "output": "common/CMakeFiles/common.dir/speculative.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-tokenizer-0.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-tokenizer-0.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-0.dir/test-tokenizer-0.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-sampling.dir/test-sampling.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-sampling.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-sampling.cpp",
+  "output": "tests/CMakeFiles/test-sampling.dir/test-sampling.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-sampling.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-sampling.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-grammar-parser.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-grammar-parser.cpp",
+  "output": "tests/CMakeFiles/test-grammar-parser.dir/test-grammar-parser.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-grammar-parser.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-grammar-parser.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-grammar-integration.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-grammar-integration.cpp",
+  "output": "tests/CMakeFiles/test-grammar-integration.dir/test-grammar-integration.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-grammar-integration.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-grammar-integration.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-llama-grammar.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-llama-grammar.cpp",
+  "output": "tests/CMakeFiles/test-llama-grammar.dir/test-llama-grammar.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-llama-grammar.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-llama-grammar.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-chat.dir/test-chat.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-chat.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-chat.cpp",
+  "output": "tests/CMakeFiles/test-chat.dir/test-chat.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-chat.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-chat.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/../examples/server -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-json-schema-to-grammar.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-json-schema-to-grammar.cpp",
+  "output": "tests/CMakeFiles/test-json-schema-to-grammar.dir/test-json-schema-to-grammar.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/../examples/server -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-json-schema-to-grammar.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-tokenizer-1-bpe.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-tokenizer-1-bpe.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-1-bpe.dir/test-tokenizer-1-bpe.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-tokenizer-1-spm.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-tokenizer-1-spm.cpp",
+  "output": "tests/CMakeFiles/test-tokenizer-1-spm.dir/test-tokenizer-1-spm.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-log.dir/test-log.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-log.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-log.cpp",
+  "output": "tests/CMakeFiles/test-log.dir/test-log.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-log.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-log.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-arg-parser.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-arg-parser.cpp",
+  "output": "tests/CMakeFiles/test-arg-parser.dir/test-arg-parser.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-arg-parser.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-arg-parser.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-chat-template.dir/test-chat-template.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-chat-template.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-chat-template.cpp",
+  "output": "tests/CMakeFiles/test-chat-template.dir/test-chat-template.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-chat-template.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-chat-template.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-gguf.dir/test-gguf.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-gguf.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-gguf.cpp",
+  "output": "tests/CMakeFiles/test-gguf.dir/test-gguf.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-gguf.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-gguf.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-backend-ops.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-backend-ops.cpp",
+  "output": "tests/CMakeFiles/test-backend-ops.dir/test-backend-ops.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-backend-ops.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-backend-ops.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-model-load-cancel.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-model-load-cancel.cpp",
+  "output": "tests/CMakeFiles/test-model-load-cancel.dir/test-model-load-cancel.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-model-load-cancel.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-model-load-cancel.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-autorelease.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-autorelease.cpp",
+  "output": "tests/CMakeFiles/test-autorelease.dir/test-autorelease.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-autorelease.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-autorelease.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-barrier.dir/test-barrier.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-barrier.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-barrier.cpp",
+  "output": "tests/CMakeFiles/test-barrier.dir/test-barrier.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-barrier.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-barrier.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-quantize-fns.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-quantize-fns.cpp",
+  "output": "tests/CMakeFiles/test-quantize-fns.dir/test-quantize-fns.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-quantize-fns.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-quantize-fns.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-quantize-perf.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-quantize-perf.cpp",
+  "output": "tests/CMakeFiles/test-quantize-perf.dir/test-quantize-perf.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-quantize-perf.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-quantize-perf.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-rope.dir/test-rope.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-rope.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-rope.cpp",
+  "output": "tests/CMakeFiles/test-rope.dir/test-rope.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/test-rope.dir/get-model.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/get-model.cpp",
+  "output": "tests/CMakeFiles/test-rope.dir/get-model.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests",
+  "command": "/usr/bin/cc -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/test-c.dir/test-c.c.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-c.c",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/tests/test-c.c",
+  "output": "tests/CMakeFiles/test-c.dir/test-c.c.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/batched-bench",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/batched-bench/batched-bench.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/batched-bench/batched-bench.cpp",
+  "output": "examples/batched-bench/CMakeFiles/llama-batched-bench.dir/batched-bench.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/batched",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-batched.dir/batched.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/batched/batched.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/batched/batched.cpp",
+  "output": "examples/batched/CMakeFiles/llama-batched.dir/batched.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/embedding",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-embedding.dir/embedding.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/embedding/embedding.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/embedding/embedding.cpp",
+  "output": "examples/embedding/CMakeFiles/llama-embedding.dir/embedding.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/eval-callback",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/eval-callback/eval-callback.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/eval-callback/eval-callback.cpp",
+  "output": "examples/eval-callback/CMakeFiles/llama-eval-callback.dir/eval-callback.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gbnf-validator",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gbnf-validator.dir/gbnf-validator.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gbnf-validator/gbnf-validator.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gbnf-validator/gbnf-validator.cpp",
+  "output": "examples/gbnf-validator/CMakeFiles/llama-gbnf-validator.dir/gbnf-validator.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash",
+  "command": "/usr/bin/cc  -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/deps -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/deps/xxhash/xxhash.c",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/deps/xxhash/xxhash.c",
+  "output": "examples/gguf-hash/CMakeFiles/xxhash.dir/deps/xxhash/xxhash.c.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash",
+  "command": "/usr/bin/cc  -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/deps -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -w -o CMakeFiles/sha1.dir/deps/sha1/sha1.c.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/deps/sha1/sha1.c",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/deps/sha1/sha1.c",
+  "output": "examples/gguf-hash/CMakeFiles/sha1.dir/deps/sha1/sha1.c.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash",
+  "command": "/usr/bin/cc  -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/deps -O3 -DNDEBUG -Wshadow -Wstrict-prototypes -Wpointer-arith -Wmissing-prototypes -Werror=implicit-int -Werror=implicit-function-declaration -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wdouble-promotion -o CMakeFiles/sha256.dir/deps/sha256/sha256.c.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/deps/sha256/sha256.c",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/deps/sha256/sha256.c",
+  "output": "examples/gguf-hash/CMakeFiles/sha256.dir/deps/sha256/sha256.c.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/deps -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/gguf-hash.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-hash/gguf-hash.cpp",
+  "output": "examples/gguf-hash/CMakeFiles/llama-gguf-hash.dir/gguf-hash.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-split",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-split/gguf-split.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf-split/gguf-split.cpp",
+  "output": "examples/gguf-split/CMakeFiles/llama-gguf-split.dir/gguf-split.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gguf.dir/gguf.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf/gguf.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gguf/gguf.cpp",
+  "output": "examples/gguf/CMakeFiles/llama-gguf.dir/gguf.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gritlm",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gritlm.dir/gritlm.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gritlm/gritlm.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gritlm/gritlm.cpp",
+  "output": "examples/gritlm/CMakeFiles/llama-gritlm.dir/gritlm.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/imatrix",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-imatrix.dir/imatrix.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/imatrix/imatrix.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/imatrix/imatrix.cpp",
+  "output": "examples/imatrix/CMakeFiles/llama-imatrix.dir/imatrix.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/infill",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-infill.dir/infill.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/infill/infill.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/infill/infill.cpp",
+  "output": "examples/infill/CMakeFiles/llama-infill.dir/infill.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llama-bench",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-bench.dir/llama-bench.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llama-bench/llama-bench.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llama-bench/llama-bench.cpp",
+  "output": "examples/llama-bench/CMakeFiles/llama-bench.dir/llama-bench.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookahead",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-lookahead.dir/lookahead.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookahead/lookahead.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookahead/lookahead.cpp",
+  "output": "examples/lookahead/CMakeFiles/llama-lookahead.dir/lookahead.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-lookup.dir/lookup.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup/lookup.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup/lookup.cpp",
+  "output": "examples/lookup/CMakeFiles/llama-lookup.dir/lookup.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup/lookup-create.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup/lookup-create.cpp",
+  "output": "examples/lookup/CMakeFiles/llama-lookup-create.dir/lookup-create.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup/lookup-merge.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup/lookup-merge.cpp",
+  "output": "examples/lookup/CMakeFiles/llama-lookup-merge.dir/lookup-merge.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-lookup-stats.dir/lookup-stats.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup/lookup-stats.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/lookup/lookup-stats.cpp",
+  "output": "examples/lookup/CMakeFiles/llama-lookup-stats.dir/lookup-stats.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/main",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-cli.dir/main.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/main/main.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/main/main.cpp",
+  "output": "examples/main/CMakeFiles/llama-cli.dir/main.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/parallel",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-parallel.dir/parallel.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/parallel/parallel.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/parallel/parallel.cpp",
+  "output": "examples/parallel/CMakeFiles/llama-parallel.dir/parallel.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/passkey",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-passkey.dir/passkey.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/passkey/passkey.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/passkey/passkey.cpp",
+  "output": "examples/passkey/CMakeFiles/llama-passkey.dir/passkey.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/perplexity",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-perplexity.dir/perplexity.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/perplexity/perplexity.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/perplexity/perplexity.cpp",
+  "output": "examples/perplexity/CMakeFiles/llama-perplexity.dir/perplexity.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/quantize",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/quantize/../../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-quantize.dir/quantize.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/quantize/quantize.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/quantize/quantize.cpp",
+  "output": "examples/quantize/CMakeFiles/llama-quantize.dir/quantize.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/retrieval",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-retrieval.dir/retrieval.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/retrieval/retrieval.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/retrieval/retrieval.cpp",
+  "output": "examples/retrieval/CMakeFiles/llama-retrieval.dir/retrieval.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/server",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/server -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-server.dir/server.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/server/server.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/server/server.cpp",
+  "output": "examples/server/CMakeFiles/llama-server.dir/server.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/save-load-state",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/save-load-state/save-load-state.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/save-load-state/save-load-state.cpp",
+  "output": "examples/save-load-state/CMakeFiles/llama-save-load-state.dir/save-load-state.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/run",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-run.dir/run.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/run/run.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/run/run.cpp",
+  "output": "examples/run/CMakeFiles/llama-run.dir/run.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/run",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/run/linenoise.cpp/linenoise.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/run/linenoise.cpp/linenoise.cpp",
+  "output": "examples/run/CMakeFiles/llama-run.dir/linenoise.cpp/linenoise.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/simple",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-simple.dir/simple.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/simple/simple.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/simple/simple.cpp",
+  "output": "examples/simple/CMakeFiles/llama-simple.dir/simple.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/simple-chat",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/simple-chat/simple-chat.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/simple-chat/simple-chat.cpp",
+  "output": "examples/simple-chat/CMakeFiles/llama-simple-chat.dir/simple-chat.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/speculative",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-speculative.dir/speculative.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/speculative/speculative.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/speculative/speculative.cpp",
+  "output": "examples/speculative/CMakeFiles/llama-speculative.dir/speculative.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/speculative-simple",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-speculative-simple.dir/speculative-simple.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/speculative-simple/speculative-simple.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/speculative-simple/speculative-simple.cpp",
+  "output": "examples/speculative-simple/CMakeFiles/llama-speculative-simple.dir/speculative-simple.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/tokenize",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-tokenize.dir/tokenize.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/tokenize/tokenize.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/tokenize/tokenize.cpp",
+  "output": "examples/tokenize/CMakeFiles/llama-tokenize.dir/tokenize.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/tts",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-tts.dir/tts.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/tts/tts.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/tts/tts.cpp",
+  "output": "examples/tts/CMakeFiles/llama-tts.dir/tts.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gen-docs",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gen-docs/gen-docs.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/gen-docs/gen-docs.cpp",
+  "output": "examples/gen-docs/CMakeFiles/llama-gen-docs.dir/gen-docs.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/convert-llama2c-to-ggml",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/convert-llama2c-to-ggml/convert-llama2c-to-ggml.cpp",
+  "output": "examples/convert-llama2c-to-ggml/CMakeFiles/llama-convert-llama2c-to-ggml.dir/convert-llama2c-to-ggml.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/cvector-generator",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/cvector-generator/cvector-generator.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/cvector-generator/cvector-generator.cpp",
+  "output": "examples/cvector-generator/CMakeFiles/llama-cvector-generator.dir/cvector-generator.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/export-lora",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-export-lora.dir/export-lora.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/export-lora/export-lora.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/export-lora/export-lora.cpp",
+  "output": "examples/export-lora/CMakeFiles/llama-export-lora.dir/export-lora.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/quantize-stats",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/quantize-stats/../../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-quantize-stats.dir/quantize-stats.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/quantize-stats/quantize-stats.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/quantize-stats/quantize-stats.cpp",
+  "output": "examples/quantize-stats/CMakeFiles/llama-quantize-stats.dir/quantize-stats.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -Wno-cast-qual -o CMakeFiles/llava.dir/llava.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/llava.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/llava.cpp",
+  "output": "examples/llava/CMakeFiles/llava.dir/llava.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_BUILD -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -O3 -DNDEBUG -fPIC -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -Wno-cast-qual -o CMakeFiles/llava.dir/clip.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/clip.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/clip.cpp",
+  "output": "examples/llava/CMakeFiles/llava.dir/clip.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../../common -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-llava-cli.dir/llava-cli.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/llava-cli.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/llava-cli.cpp",
+  "output": "examples/llava/CMakeFiles/llama-llava-cli.dir/llava-cli.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../../common -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-minicpmv-cli.dir/minicpmv-cli.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/minicpmv-cli.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/minicpmv-cli.cpp",
+  "output": "examples/llava/CMakeFiles/llama-minicpmv-cli.dir/minicpmv-cli.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../../common -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/qwen2vl-cli.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/qwen2vl-cli.cpp",
+  "output": "examples/llava/CMakeFiles/llama-qwen2vl-cli.dir/qwen2vl-cli.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../.. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/../../common -O3 -DNDEBUG -Wmissing-declarations -Wmissing-noreturn -Wall -Wextra -Wpedantic -Wcast-qual -Wno-unused-function -Wno-array-bounds -Wextra-semi -o CMakeFiles/llama-llava-clip-quantize-cli.dir/clip-quantize-cli.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/clip-quantize-cli.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/examples/llava/clip-quantize-cli.cpp",
+  "output": "examples/llava/CMakeFiles/llama-llava-clip-quantize-cli.dir/clip-quantize-cli.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/pocs/vdot",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/pocs -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -o CMakeFiles/llama-vdot.dir/vdot.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/pocs/vdot/vdot.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/pocs/vdot/vdot.cpp",
+  "output": "pocs/vdot/CMakeFiles/llama-vdot.dir/vdot.cpp.o"
+},
+{
+  "directory": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/pocs/vdot",
+  "command": "/usr/bin/c++ -DGGML_BACKEND_SHARED -DGGML_SHARED -DGGML_USE_CPU -DLLAMA_SHARED -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/pocs -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/common/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/. -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../include -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/src/../common -I/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/ggml/src/../include -O3 -DNDEBUG -o CMakeFiles/llama-q8dot.dir/q8dot.cpp.o -c /mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/pocs/vdot/q8dot.cpp",
+  "file": "/mnt/c/Pavan/MyCodingWorld/ot-synapses.ai/ot-synapses.ai-project/llama.cpp/pocs/vdot/q8dot.cpp",
+  "output": "pocs/vdot/CMakeFiles/llama-q8dot.dir/q8dot.cpp.o"
+}
+]

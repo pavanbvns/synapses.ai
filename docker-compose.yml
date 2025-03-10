@@ -1,0 +1,16 @@
+# docker-compose.yml
+version: "3.8"
+
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=development
+      # Additional environment variables can be defined here,
+      # for example: MODEL_PATH, DATABASE_URL, etc.
+    volumes:
+      - .:/app  # Useful for live-reloading during development

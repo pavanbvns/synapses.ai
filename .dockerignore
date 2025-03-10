@@ -1,0 +1,12 @@
+venv/
+llama.cpp/build/
+winenv/
+__pycache__/
+.env
+*.env.*
+env.*
+.git/
+.gitattributes
+.gitignore
+install_files/
+models/

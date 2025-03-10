@@ -1,0 +1,19 @@
+fastapi
+uvicorn
+requests
+Pillow
+transformers
+torch
+sentencepiece
+python-multipart
+llama-cpp-python #@ file:///app/installer_files/llama_cpp_python-0.3.7-cp312-cp312-linux_x86_64.whl
+qdrant-client
+sqlalchemy
+PyYAML
+pyfiglet
+#below packages are not reuired if we are using llama 3.2 11B Vision model
+PyPDF2
+docx2txt
+Pillow
+pytesseract
+pdf2image
