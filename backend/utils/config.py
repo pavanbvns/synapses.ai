@@ -1,19 +1,28 @@
+# backend/utils/config.py
+
 import os
 import yaml
 import logging
 
 # Configure module-level logger
 logger = logging.getLogger(__name__)
-logger.setLevel(logging.DEBUG)  # Adjust the logging level as needed
+logger.setLevel(logging.DEBUG)
 
-handler = logging.StreamHandler()
+stream_handler = logging.StreamHandler()
 formatter = logging.Formatter("%(asctime)s %(levelname)s: %(message)s")
-handler.setFormatter(formatter)
-logger.addHandler(handler)
+stream_handler.setFormatter(formatter)
+logger.addHandler(stream_handler)
 
 
 class Config:
-    def __init__(self, config_file="config.yml"):
+    def __init__(self, config_file: str = None):
+        # If no config file path is provided, assume it is in the project root.
+        if config_file is None:
+            # Compute the project root (assumes this file is in backend/utils/)
+            base_dir = os.path.dirname(
+                os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            )
+            config_file = os.path.join(base_dir, "config.yml")
         self.config_file = config_file
         self.data = {}
         self.load_config()
@@ -50,7 +59,7 @@ class Config:
             return default
 
 
-# Create a singleton instance to be imported by other modules
+# Create a singleton instance for import in other modules
 try:
     config = Config()
 except Exception as e:

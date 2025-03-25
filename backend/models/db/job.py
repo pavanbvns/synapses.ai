@@ -1,20 +1,19 @@
+# backend/models/db/job.py
+
 import datetime
 import logging
-import uuid
-from sqlalchemy import Column, Integer, String, DateTime
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy import create_engine
+from sqlalchemy import Column, Integer, String, DateTime, create_engine
+from sqlalchemy.orm import declarative_base, sessionmaker
 
 # Configure module logger
-logger = logging.getLogger("models.db.job")
+logger = logging.getLogger("backend.models.db.job")
 logger.setLevel(logging.DEBUG)
 if not logger.handlers:
     ch = logging.StreamHandler()
     ch.setFormatter(logging.Formatter("%(asctime)s %(levelname)s: %(message)s"))
     logger.addHandler(ch)
 
-# Create the SQLAlchemy base and engine. Adjust the database URL as needed.
+# Database URL and engine configuration
 DATABASE_URL = "sqlite:///./jobs.db"
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(bind=engine, autoflush=False, autocommit=False)
@@ -33,11 +32,12 @@ class Job(Base):
 def create_job(job_name: str) -> int:
     """
     Create a new job record and return its ID.
-    Note: This function no longer inserts a "details" column.
     """
     db = SessionLocal()
     try:
-        job = Job(job_name=job_name, status="Started", start_time=datetime.datetime.utcnow())
+        job = Job(
+            job_name=job_name, status="Started", start_time=datetime.datetime.utcnow()
+        )
         db.add(job)
         db.commit()
         db.refresh(job)
@@ -74,6 +74,5 @@ def update_job(job_id: int, status: str):
         db.close()
 
 
-# Create tables if they don't exist (for first-time startup)
 if __name__ == "__main__":
     Base.metadata.create_all(bind=engine)

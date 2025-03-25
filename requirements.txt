@@ -6,7 +6,7 @@ transformers
 torch
 sentencepiece
 python-multipart
-llama-cpp-python #@ file:///app/installer_files/llama_cpp_python-0.3.7-cp312-cp312-linux_x86_64.whl
+# llama-cpp-python #@ file:///app/installer_files/llama_cpp_python-0.3.7-cp312-cp312-linux_x86_64.whl
 qdrant-client
 sqlalchemy
 PyYAML

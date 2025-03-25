@@ -1,14 +1,15 @@
+# backend/utils/utils.py
+
 import os
 import logging
 from typing import Any
-from utils.config import config
+from .config import config  # Relative import based on new project structure
 import hashlib
+import requests
 
-# Retrieve logging level from config (expected values: 'DEBUG', 'INFO', etc.)
+# Retrieve logging level from configuration (expected values: 'DEBUG', 'INFO', etc.)
 logging_level_str = config.get("logging_level", "DEBUG")
-numeric_level = getattr(logging, logging_level_str.upper(), None)
-if not isinstance(numeric_level, int):
-    numeric_level = logging.DEBUG
+numeric_level = getattr(logging, logging_level_str.upper(), logging.DEBUG)
 
 logger = logging.getLogger(__name__)
 logger.setLevel(numeric_level)
@@ -18,28 +19,20 @@ if not logger.handlers:
     handler.setFormatter(formatter)
     logger.addHandler(handler)
 
-# Retrieve allowed file extensions from config
+# Retrieve allowed file extensions and file size limit from configuration
 ALLOWED_EXTENSIONS = set(
     config.get(
         "allowed_file_extensions",
         [".pdf", ".doc", ".docx", ".jpg", ".jpeg", ".tiff", ".png"],
     )
 )
-
-# Retrieve allowed file size limit from config (in bytes; default: 10 MB)
 ALLOWED_FILE_SIZE_LIMIT = config.get("allowed_file_size_limit", 10 * 1024 * 1024)
+
 
 def save_file_to_disk(file_bytes: bytes, destination_dir: str, filename: str) -> str:
     """
-    Save an uploaded file to a destination directory.
-
-    Args:
-        file_data: A file-like object (an UploadFile instance).
-        destination_dir: The directory where the file should be saved.
-        filename: The desired filename for the saved file.
-
-    Returns:
-        The full file path of the saved file.
+    Save the provided file bytes to disk at the specified destination directory with the given filename.
+    Returns the full path of the saved file.
     """
     try:
         if not os.path.exists(destination_dir):
@@ -54,9 +47,10 @@ def save_file_to_disk(file_bytes: bytes, destination_dir: str, filename: str) ->
         logger.exception("Error saving file to disk: %s", e)
         raise
 
+
 def get_file_extension(file_path: str) -> str:
     """
-    Determine and return the lowercase file extension of a file.
+    Return the lowercase file extension of the specified file.
     """
     try:
         _, ext = os.path.splitext(file_path)
@@ -66,6 +60,7 @@ def get_file_extension(file_path: str) -> str:
     except Exception as e:
         logger.exception("Error determining file extension for '%s': %s", file_path, e)
         raise
+
 
 def validate_file(file_path: str) -> bool:
     """
@@ -83,25 +78,36 @@ def validate_file(file_path: str) -> bool:
         logger.exception("Error validating file '%s': %s", file_path, e)
         raise
 
+
 def validate_file_size(file_path: str) -> bool:
     """
-    Validate that the file size does not exceed the allowed file size limit.
+    Validate that the file size does not exceed the allowed limit.
     """
     try:
         file_size = os.path.getsize(file_path)
         if file_size <= ALLOWED_FILE_SIZE_LIMIT:
-            logger.info("File '%s' size %d bytes is within the allowed limit.", file_path, file_size)
+            logger.info(
+                "File '%s' size %d bytes is within the allowed limit.",
+                file_path,
+                file_size,
+            )
             return True
         else:
-            logger.warning("File '%s' size %d bytes exceeds allowed limit of %d bytes.", file_path, file_size, ALLOWED_FILE_SIZE_LIMIT)
+            logger.warning(
+                "File '%s' size %d bytes exceeds allowed limit of %d bytes.",
+                file_path,
+                file_size,
+                ALLOWED_FILE_SIZE_LIMIT,
+            )
             return False
     except Exception as e:
         logger.exception("Error validating file size for '%s': %s", file_path, e)
         raise
 
+
 def load_file_bytes(file_path: str) -> bytes:
     """
-    Load a file and return its contents as bytes.
+    Load and return the contents of the file as bytes.
     """
     try:
         with open(file_path, "rb") as f:
@@ -113,11 +119,9 @@ def load_file_bytes(file_path: str) -> bytes:
         raise
 
 
-
-
 def compute_file_hash(file_bytes: bytes) -> str:
     """
-    Compute and return the SHA256 hash of the file bytes.
+    Compute and return the SHA256 hash of the provided file bytes.
     """
     try:
         sha256 = hashlib.sha256()
@@ -130,20 +134,25 @@ def compute_file_hash(file_bytes: bytes) -> str:
         raise
 
 
-def get_embedding(text: str, llama_host: str, llama_port: int, n_predict: int = 128, temperature: float = 0.7) -> list:
+def get_embedding(
+    text: str,
+    llama_host: str,
+    llama_port: int,
+    n_predict: int = 128,
+    temperature: float = 0.7,
+) -> list:
     """
     Obtain an embedding vector for the provided text by calling llama-server's embedding endpoint.
-    NOTE: This is a stub function—you need to implement the actual call based on your llama-server's API.
+    This function is a stub that should be adapted to the llama-server's API.
     """
     try:
-        # Example: assuming your llama-server exposes an /embedding endpoint.
         url = f"http://{llama_host}:{llama_port}/embedding"
-        payload = {
-            "prompt": text,
-            "n_predict": n_predict,
-            "temperature": temperature
-        }
-        logger.debug("Requesting embedding from llama-server at %s with payload: %s", url, payload)
+        payload = {"prompt": text, "n_predict": n_predict, "temperature": temperature}
+        logger.debug(
+            "Requesting embedding from llama-server at %s with payload: %s",
+            url,
+            payload,
+        )
         response = requests.post(url, json=payload, timeout=60)
         if response.status_code == 200:
             data = response.json()
@@ -151,8 +160,11 @@ def get_embedding(text: str, llama_host: str, llama_port: int, n_predict: int = 
             logger.info("Obtained embedding vector of length %d.", len(embedding))
             return embedding
         else:
-            logger.error("Failed to get embedding from llama-server. Status: %s, Response: %s",
-                         response.status_code, response.text)
+            logger.error(
+                "Failed to get embedding from llama-server. Status: %s, Response: %s",
+                response.status_code,
+                response.text,
+            )
             return []
     except Exception as e:
         logger.exception("Error getting embedding: %s", e)
