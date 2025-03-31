@@ -67,12 +67,16 @@ async def generate_file_summary(
             "collection_name", "default_collection"
         )
         cached_text = get_extracted_text_from_qdrant(file_hash, collection_name)
+        # print("---------------------------------------------------------")
+        # print("cached text: \n%s", cached_text)
+        # print("---------------------------------------------------------")
         if cached_text:
             logger.info(
                 "File '%s' already processed; using cached extracted text.",
                 file.filename,
             )
             extracted_text = cached_text
+            logger.info("Extracted text: \n%s", extracted_text)
         else:
             unique_id = str(uuid.uuid4())
             processed_dir = config.get("processed_dir", "processed_dir")
@@ -84,8 +88,9 @@ async def generate_file_summary(
                 temp_filename = f"{unique_id}_{file.filename}"
                 file_path = save_file_to_disk(file_bytes, processed_dir, temp_filename)
                 logger.info("Saved file as %s for text extraction.", file_path)
-                extracted_text = extract_text_from_file(file_path, parse_images=True)
-                # print("Extracted text: \n", extracted_text)
+
+                extracted_text = extract_text_from_file(file_path)
+                print("Extracted text: \n", extracted_text)
                 logger.info(
                     "Extracted text of length %d from '%s'.",
                     len(extracted_text),
@@ -102,7 +107,10 @@ async def generate_file_summary(
             logger.info("Extracted text: \n", extracted_text)
 
             summary = chatbot_instance.generate_summary_threadsafe(
-                extracted_text.encode("utf-8"), min_words, max_words
+                # extracted_text.encode("utf-8"),
+                extracted_text,
+                min_words,
+                max_words,
             )
         logger.info("Generated summary for file '%s'.", file.filename)
         update_job(job_id, "Completed")

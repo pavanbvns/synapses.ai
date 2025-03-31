@@ -2,10 +2,13 @@
 
 import os
 import logging
-from typing import Any
+
+# from typing import
 from .config import config  # Relative import based on new project structure
 import hashlib
 import requests
+import time
+import json
 
 # Retrieve logging level from configuration (expected values: 'DEBUG', 'INFO', etc.)
 logging_level_str = config.get("logging_level", "DEBUG")
@@ -139,33 +142,137 @@ def get_embedding(
     llama_host: str,
     llama_port: int,
     n_predict: int = 128,
-    temperature: float = 0.7,
+    temperature: float = 0.0,
+    max_chunk_size: int = int(config.get("max_embedding_input_length", 1024)),
 ) -> list:
     """
-    Obtain an embedding vector for the provided text by calling llama-server's embedding endpoint.
-    This function is a stub that should be adapted to the llama-server's API.
+    Request an embedding vector from llama-server for the given text.
+    If the text is too long, it is split into chunks and the embeddings are aggregated
+    via elementwise mean pooling.
+
+    Parameters:
+      - text: The input text.
+      - llama_host: Hostname of the llama-server.
+      - llama_port: Port number of the llama-server.
+      - n_predict: A parameter carried over from text-generation APIs.
+      - temperature: Temperature parameter for the embedding call.
+      - max_chunk_size: Maximum number of characters per chunk (default from config).
+
+    Returns:
+      - A list of floats representing the aggregated embedding vector.
+
+    Note:
+      The expected hidden size (embedding dimension) is read from config ("embedding_hidden_size")
+      and for llama 3.2 3B it is 4096. If the server returns per-token embeddings, they are aggregated
+      via mean pooling.
     """
-    try:
-        url = f"http://{llama_host}:{llama_port}/embedding"
-        payload = {"prompt": text, "n_predict": n_predict, "temperature": temperature}
-        logger.debug(
-            "Requesting embedding from llama-server at %s with payload: %s",
-            url,
-            payload,
-        )
-        response = requests.post(url, json=payload, timeout=60)
-        if response.status_code == 200:
-            data = response.json()
-            embedding = data.get("embedding", [])
-            logger.info("Obtained embedding vector of length %d.", len(embedding))
-            return embedding
+    url = f"http://{llama_host}:{llama_port}/embedding"
+    expected_hidden_size = int(config.get("embedding_hidden_size", 4096))
+
+    def request_embedding(chunk: str) -> list:
+        payload = {
+            "input": chunk,
+            "n_predict": n_predict,
+            "temperature": temperature,
+            "pooling": "mean",  # Request mean pooling if supported
+        }
+        logger.debug("Requesting embedding for chunk of length %d.", len(chunk))
+        response = requests.post(url, json=payload, timeout=120)
+        if response.status_code != 200:
+            logger.error("Error obtaining embedding for chunk: %s", response.text)
+            raise Exception(f"Error obtaining embedding for chunk: {response.text}")
+        data = response.json()
+        # logger.debug("Embedding response: %s", data)
+
+        # Extract the embedding vector from the response.
+        matrix = None
+        if isinstance(data, list):
+            if not data:
+                raise Exception("Received empty embedding list for chunk.")
+            matrix = data[0].get("embedding") or data[0].get("vector")
+        elif isinstance(data, dict):
+            matrix = data.get("embedding") or data.get("vector")
         else:
-            logger.error(
-                "Failed to get embedding from llama-server. Status: %s, Response: %s",
-                response.status_code,
-                response.text,
+            raise Exception(
+                "Unexpected response type for embedding: " + str(type(data))
             )
-            return []
-    except Exception as e:
-        logger.exception("Error getting embedding: %s", e)
-        raise
+        if not matrix:
+            raise Exception("No embedding found in response: " + json.dumps(data))
+
+        # If the embedding is nested (list of lists), flatten it.
+        if isinstance(matrix, list) and matrix and isinstance(matrix[0], list):
+            flattened = []
+            for sub in matrix:
+                flattened.extend(sub)
+            matrix = flattened
+
+        # Ensure the length is a multiple of expected_hidden_size.
+        remainder = len(matrix) % expected_hidden_size
+        if remainder != 0:
+            logger.warning(
+                "Returned embedding length (%d) is not a multiple of expected hidden size (%d); truncating remainder.",
+                len(matrix),
+                expected_hidden_size,
+            )
+            matrix = matrix[: len(matrix) - remainder]
+
+        # If we received exactly one vector, return it.
+        if len(matrix) == expected_hidden_size:
+            return matrix
+        # If multiple per-token embeddings were returned, aggregate via mean pooling.
+        elif len(matrix) > expected_hidden_size:
+            num_tokens = len(matrix) // expected_hidden_size
+            aggregated = []
+            for i in range(expected_hidden_size):
+                total = sum(
+                    matrix[i + j * expected_hidden_size] for j in range(num_tokens)
+                )
+                aggregated.append(total / num_tokens)
+            return aggregated
+        else:
+            raise Exception(
+                f"Embedding dimension mismatch: got {len(matrix)}, expected at least {expected_hidden_size}"
+            )
+
+    # Process text: if within allowed limit, process directly; otherwise, split into chunks.
+    if len(text) <= max_chunk_size:
+        logger.debug(
+            "Input text length (%d) is within allowed limit (%d).",
+            len(text),
+            max_chunk_size,
+        )
+        return request_embedding(text)
+    else:
+        logger.debug(
+            "Input text length (%d) exceeds limit (%d). Splitting text into chunks.",
+            len(text),
+            max_chunk_size,
+        )
+        # Split by character count. (Consider using a tokenizer for token-based splitting.)
+        chunks = [
+            text[i : i + max_chunk_size] for i in range(0, len(text), max_chunk_size)
+        ]
+        embeddings = []
+        for idx, chunk in enumerate(chunks):
+            logger.debug("Processing chunk %d of %d...", idx + 1, len(chunks))
+            emb = request_embedding(chunk)
+            embeddings.append(emb)
+            time.sleep(0.1)  # slight pause to avoid overwhelming the server
+
+        # Verify all embeddings have the same length.
+        vector_lengths = [len(emb) for emb in embeddings]
+        if not all(length == vector_lengths[0] for length in vector_lengths):
+            logger.error(
+                "Mismatch in embedding lengths among chunks: %s", vector_lengths
+            )
+            raise Exception("Mismatch in embedding lengths among chunks.")
+
+        # Aggregate embeddings via elementwise mean.
+        vector_length = vector_lengths[0]
+        aggregated_embedding = [0.0] * vector_length
+        for emb in embeddings:
+            for i in range(vector_length):
+                aggregated_embedding[i] += emb[i]
+        aggregated_embedding = [val / len(embeddings) for val in aggregated_embedding]
+        logger.debug("Aggregated embedding computed from %d chunks.", len(embeddings))
+        return aggregated_embedding

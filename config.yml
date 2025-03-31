@@ -22,3 +22,6 @@ qdrant:
 
 # Database configuration
 database_url: "sqlite:///./jobs.db"
+
+#cpu or gpu
+use_gpu: false

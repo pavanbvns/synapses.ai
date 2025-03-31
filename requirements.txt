@@ -17,3 +17,9 @@ docx2txt
 Pillow
 pytesseract
 pdf2image
+unstructured
+pdfminer.six
+pi-heif
+unstructured_inference
+python-docx
+unstructured_pytesseract

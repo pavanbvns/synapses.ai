@@ -82,20 +82,18 @@ async def find_obligations(file: UploadFile = File(...)):
                 )
 
         # Prepare the prompt to extract obligations
-        obligations_prompt = (
-            f"Document text: {extracted_text}\n"
-            "Identify and extract all obligations from the provided document. For each obligation, extract the following attributes:\n"
-            "- Obligation Summary\n"
-            "- Obligation Type (choose from: Payment, Delivery, Service, Warranty/Guarantee, Intellectual Property, Termination, Other)\n"
-            "- Obligation Start Date (if specified, otherwise 'NOT SPECIFIED')\n"
-            "- Obligation End Date (if specified, otherwise 'NOT SPECIFIED')\n"
-            "- Obligation Recurrence (Yes/No)\n"
-            "- Obligation Recurrence Frequency (if recurring, e.g., monthly, weekly, daily; otherwise 'NOT APPLICABLE')\n"
-            "- Obligation Associated Risk Factor (High, Medium, Low, or No Risk)\n"
-            "Output ONLY a JSON array where each element is a JSON object with the keys: "
-            "'Obligation Summary', 'Obligation Type', 'Obligation Start Date', 'Obligation End Date', "
-            "'Obligation Recurrence', 'Obligation Recurrence Frequency', 'Obligation Associated Risk Factor'."
-        )
+        obligations_prompt = f"""Document text: {extracted_text}\n
+            Identify and extract all obligations from the provided document. For each obligation, extract the following attributes:\n"
+            - Obligation Summary
+            - Obligation Type (choose from: Payment, Delivery, Service, Warranty/Guarantee, Intellectual Property, Termination, Other)\n"
+            - Obligation Start Date (if specified, otherwise 'NOT SPECIFIED')
+            - Obligation End Date (if specified, otherwise 'NOT SPECIFIED')
+            - Obligation Recurrence (Yes/No)
+            - Obligation Recurrence Frequency (if recurring, e.g., monthly, weekly, daily; otherwise 'NOT APPLICABLE')
+            - Obligation Associated Risk Factor (High, Medium, Low, or No Risk)
+            Output ONLY a JSON array where each element is a JSON object with the keys: 
+            'Obligation Summary', 'Obligation Type', 'Obligation Start Date', 'Obligation End Date', 
+            'Obligation Recurrence', 'Obligation Recurrence Frequency', 'Obligation Associated Risk Factor'."""
 
         obligations_answer = chatbot_instance.ask_question_threadsafe(
             extracted_text, obligations_prompt, "specific"

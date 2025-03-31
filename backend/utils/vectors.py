@@ -148,6 +148,9 @@ def search_embeddings(
             collection_name,
             len(results),
         )
+        # print("---------------------------------------------------------")
+        # print("cached results: \n", results)
+        # print("---------------------------------------------------------")
         return results
     except Exception as e:
         logger.exception(
@@ -170,6 +173,9 @@ def get_extracted_text_from_qdrant(file_hash: str, collection_name: str) -> str:
             limit=1,
             query_filter=Filter(**filter_payload),
         )
+        # print("---------------------------------------------------------")
+        # print("Qdrant cache text: \n", results[0].payload.get("extracted_text"))
+        # print("---------------------------------------------------------")
         if results and results[0].payload.get("extracted_text"):
             logger.info("Found cached extracted text for file hash %s.", file_hash)
             return results[0].payload.get("extracted_text")

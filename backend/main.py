@@ -24,6 +24,9 @@ from backend.utils.vectors import get_qdrant_client, check_or_create_collection
 from backend.routers import gen_summary, qna_on_docs, find_obligations, find_risks
 from fastapi import FastAPI
 
+from fastapi.middleware.cors import CORSMiddleware
+from backend.routers import chat_with_kb
+
 # Initialize logger
 logger = logging.getLogger("backend.main")
 logger.setLevel(logging.DEBUG)
@@ -183,6 +186,22 @@ def main():
 
         # Create FastAPI app and start Uvicorn server
         app = create_app()
+        origins = [
+            "http://localhost:3000",
+            "http://127.0.0.1:3000",
+            # any other front-end origins that need to be allowed has to be added here to over the CORS issue.
+        ]
+
+        app.add_middleware(
+            CORSMiddleware,
+            allow_origins=origins,
+            allow_credentials=True,
+            allow_methods=["*"],
+            allow_headers=["*"],
+        )
+
+        # Include your router
+        app.include_router(chat_with_kb.router)
         logger.info("Starting Uvicorn server on %s:%d...", uvicorn_host, uvicorn_port)
         uvicorn.run(app, host=uvicorn_host, port=uvicorn_port)
     except Exception as e:

@@ -6,7 +6,7 @@ import logging
 import json
 from typing import List
 from enum import Enum
-from fastapi import APIRouter, UploadFile, File, Form, HTTPException
+from fastapi import Request, APIRouter, UploadFile, File, Form, HTTPException
 from pydantic import BaseModel
 
 from backend.models.db.job import create_job, update_job
@@ -18,9 +18,14 @@ from backend.utils.utils import (
 )
 from backend.utils.vectors import (
     get_extracted_text_from_qdrant,
-    background_save_to_qdrant,  # <— You’d define this in vectors.py
+    background_save_to_qdrant,
 )
-from backend.utils.document_parser import extract_text_from_file
+from backend.utils.document_parser import (
+    extract_text_from_file,
+    extract_text_from_image,
+    cleanup_memory,
+    convert_pdf_to_images,
+)
 from backend.utils.chatbot import chatbot_instance
 
 logger = logging.getLogger(__name__)
@@ -41,6 +46,7 @@ class QAPair(BaseModel):
 
 @router.post("/qna_on_docs")
 async def qna_on_docs(
+    request: Request,
     files: List[UploadFile] = File(...),
     qna_items_str: str = Form(...),
 ):
@@ -111,7 +117,8 @@ async def qna_on_docs(
                     extracted_text = file_bytes.decode("utf-8", errors="replace")
                 else:
                     extracted_text = extract_text_from_file(
-                        file_path, parse_images=True
+                        file_path
+                        # , parse_images=True
                     )
                 file_texts.append(extracted_text)
                 # Schedule background task to compute embedding and save file metadata to Qdrant.
