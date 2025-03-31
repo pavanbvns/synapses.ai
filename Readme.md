@@ -191,7 +191,8 @@ Follow these steps to set up your development environment on a Windows 10/11 lap
 
 4. Building & Running the Project with Docker
 
-5. A sample Dockerfile is provided in the project root for building a containerized version of the system. 
+5. A sample Dockerfile is provided in the project root for building a containerized version of the system.
+   
     **Key highlights include:**
 
     Installation of Tesseract OCR and necessary build tools.
