@@ -14,7 +14,6 @@ from fastapi import (
     Form,
     HTTPException,
     BackgroundTasks,
-    Query,
 )
 from backend.models.db.job import create_job, update_job
 from backend.utils.config import config
@@ -25,7 +24,6 @@ from backend.utils.vectors import (
     get_extracted_text_from_qdrant,
     check_or_create_collection,
     get_embedding,
-    get_qdrant_client,
 )
 
 logger = logging.getLogger(__name__)
@@ -40,7 +38,7 @@ def ingest_file(file_bytes: bytes, filename: str, processed_dir: str) -> (str, s
     file_path = save_file_to_disk(
         file_bytes, processed_dir, f"{uuid.uuid4()}_{filename}"
     )
-    extracted_text = extract_text_from_file(file_path)
+    extracted_text = extract_text_from_file(file_path, parse_images=True)
     return file_hash, extracted_text
 
 
@@ -48,11 +46,10 @@ def ingest_folder(
     folder_path: str, processed_dir: str, allowed_extensions: List[str]
 ) -> List[dict]:
     """
-    Recursively iterate over files in folder_path, ingest each valid file.
-    Returns a list of ingestion results.
+    Recursively ingest all valid files from the given folder path.
     """
     results = []
-    for root, dirs, files in os.walk(folder_path):
+    for root, _, files in os.walk(folder_path):
         for fname in files:
             ext = os.path.splitext(fname)[1].lower()
             if ext in allowed_extensions:
@@ -78,23 +75,17 @@ def ingest_folder(
 
 def ingest_from_url(url: str, processed_dir: str) -> dict:
     """
-    Download or extract content from a URL.
-    This is a simple implementation. In production, you might want to
-    use libraries like BeautifulSoup to extract text from web pages.
+    Download and extract text from a URL.
     """
     import requests
 
     try:
         response = requests.get(url, timeout=30)
-        if response.status_code != 200:
-            raise Exception(f"Failed to fetch URL: {url}")
-        # Use the raw HTML as text (or improve extraction logic)
+        response.raise_for_status()
         text = response.text
-        # Use URL as filename surrogate.
         filename = url.split("/")[-1] or "downloaded_content.html"
         file_bytes = text.encode("utf-8")
         file_hash = compute_file_hash(file_bytes)
-        # Optionally, save the file
         file_path = save_file_to_disk(file_bytes, processed_dir, filename)
         extracted_text = extract_text_from_file(file_path)
         return {
@@ -109,33 +100,35 @@ def ingest_from_url(url: str, processed_dir: str) -> dict:
 
 def upsert_to_qdrant(file_hash: str, filename: str, extracted_text: str):
     """
-    Compute embedding and upsert the document into Qdrant.
+    Embed and upsert the document into Qdrant.
     """
     collection_name = config.get("qdrant", {}).get(
         "collection_name", "default_collection"
     )
     vector_size = config.get("qdrant", {}).get("vector_size", 4096)
-    check_or_create_collection(collection_name, vector_size=vector_size)
-    # Get embedding
+    check_or_create_collection(collection_name, vector_size)
+
     llama_host = config.get("llama_server_host", "127.0.0.1")
     llama_port = int(config.get("llama_server_port", 8080))
     embedding = get_embedding(extracted_text, llama_host, llama_port)
     if not embedding or len(embedding) != vector_size:
-        raise Exception(f"Embedding dimension error for file {filename}")
-    # Prepare document point
-    doc_point = {
+        raise ValueError(f"Invalid embedding size for {filename}")
+
+    point = {
         "id": str(uuid.uuid4()),
         "vector": embedding,
         "payload": {
             "file_hash": file_hash,
-            "extracted_text": extracted_text,
             "filename": filename,
+            "extracted_text": extracted_text,
         },
     }
-    # Upsert to Qdrant
-    insert_embeddings(collection_name, [doc_point])
+
+    insert_embeddings(collection_name, [point])
     logger.info(
-        "Upserted embedding for file %s into collection %s.", filename, collection_name
+        "Upserted embedding for file %s into collection '%s'.",
+        filename,
+        collection_name,
     )
 
 
@@ -147,15 +140,11 @@ async def ingest_knowledge(
     url: Optional[str] = Form(None),
 ):
     """
-    Ingest documents into the knowledge base (Qdrant).
-
-    Three ingestion modes:
-    1. Direct file upload.
-    2. Folder path (server-side).
-    3. URL to download content.
-
-    For each document, the process computes the file hash, extracts text,
-    and upserts embeddings into Qdrant.
+    Ingest files, folders, or web content into the vector DB.
+    Modes:
+      1. File Upload
+      2. Folder Ingestion
+      3. URL Content Ingestion
     """
     job_id = create_job("Ingest Knowledge Base")
     processed_dir = config.get("processed_dir", "./data/processed_dir")
@@ -165,58 +154,48 @@ async def ingest_knowledge(
     )
 
     ingested_count = 0
-    try:
-        ingest_results = []
+    ingest_results = []
 
-        # 1. Direct file upload ingestion
+    try:
+        # 1. File Uploads
         if files:
             for file in files:
                 if not validate_file(file.filename):
-                    logger.error("Unsupported file type: %s", file.filename)
+                    logger.warning("Skipping unsupported file: %s", file.filename)
                     continue
                 file_bytes = await file.read()
                 file_hash, extracted_text = ingest_file(
                     file_bytes, file.filename, processed_dir
                 )
-                # Avoid duplicate ingestion if already exists in Qdrant
-                cached = get_extracted_text_from_qdrant(file_hash, allowed_extensions)
-                if not cached:
+                if not get_extracted_text_from_qdrant(
+                    file_hash, config.get("qdrant", {})
+                ):
                     upsert_to_qdrant(file_hash, file.filename, extracted_text)
                 ingest_results.append({"filename": file.filename, "method": "upload"})
                 ingested_count += 1
 
-        # 2. Folder ingestion
+        # 2. Folder Ingestion
         if folder_path:
             if not os.path.isdir(folder_path):
                 raise HTTPException(
-                    status_code=400, detail="Provided folder path is not valid."
+                    status_code=400, detail="Provided folder path is invalid."
                 )
-            folder_results = ingest_folder(
-                folder_path, processed_dir, allowed_extensions
-            )
-            for result in folder_results:
-                # Check for duplicates (this sample does not perform a full duplicate check)
+            folder_docs = ingest_folder(folder_path, processed_dir, allowed_extensions)
+            for doc in folder_docs:
                 upsert_to_qdrant(
-                    result["file_hash"], result["filename"], result["extracted_text"]
+                    doc["file_hash"], doc["filename"], doc["extracted_text"]
                 )
-                ingest_results.append(
-                    {"filename": result["filename"], "method": "folder"}
-                )
+                ingest_results.append({"filename": doc["filename"], "method": "folder"})
                 ingested_count += 1
 
-        # 3. URL ingestion
+        # 3. URL Ingestion
         if url:
-            url_result = ingest_from_url(url, processed_dir)
-            upsert_to_qdrant(
-                url_result["file_hash"],
-                url_result["filename"],
-                url_result["extracted_text"],
-            )
-            ingest_results.append({"filename": url_result["filename"], "method": "url"})
+            doc = ingest_from_url(url, processed_dir)
+            upsert_to_qdrant(doc["file_hash"], doc["filename"], doc["extracted_text"])
+            ingest_results.append({"filename": doc["filename"], "method": "url"})
             ingested_count += 1
 
         update_job(job_id, "Completed")
-        # Optionally, run cleanup in the background.
         background_tasks.add_task(cleanup_memory)
         return {
             "job_id": job_id,
@@ -226,5 +205,5 @@ async def ingest_knowledge(
 
     except Exception as e:
         update_job(job_id, "Aborted")
-        logger.exception("Error in /ingest endpoint: %s", e)
+        logger.exception("Error in /ingest: %s", e)
         raise HTTPException(status_code=500, detail=str(e))

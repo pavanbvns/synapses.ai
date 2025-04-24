@@ -6,7 +6,6 @@ import threading
 
 from fastapi import APIRouter, File, Form, UploadFile, HTTPException
 
-# Import  utility modules
 from backend.utils.utils import (
     validate_file,
     save_file_to_disk,
@@ -18,13 +17,7 @@ from backend.utils.vectors import (
     get_extracted_text_from_qdrant,
     background_save_to_qdrant,
 )
-from backend.utils.vectors import (
-    create_collection as ensure_collection,
-)
 from backend.utils.chatbot import chatbot_instance
-
-
-# Import  DB job logic
 from backend.models.db.job import create_job, update_job
 
 logger = logging.getLogger(__name__)
@@ -37,85 +30,70 @@ async def generate_file_summary(
 ):
     """
     Generate a summary for an uploaded document.
+    1. Validate the file.
+    2. Check Qdrant for cached text by file hash.
+    3. If uncached:
+        - Save and extract text based on model type.
+        - Generate summary.
+        - Launch background thread to persist embedding to Qdrant.
 
-    Workflow:
-      1. Validate file type and size.
-      2. Compute file hash and check Qdrant for cached extracted text.
-      3. If no cached text exists:
-           a. Tag the file with a UUID.
-           b. Depending on configuration, extract text from the file (for text models) or decode raw bytes (for vision models).
-           c. Immediately generate a summary via llama‑server.
-           d. In the background, compute the embedding and store file metadata and embedding in Qdrant.
-      4. Return the generated summary.
     """
-    job_id = None
+    # job_id = None
     try:
-        job_id = create_job("Generate File Summary")
+        # job_id = create_job("Generate File Summary")
+
         if not validate_file(file.filename):
             raise HTTPException(status_code=400, detail="Unsupported file type.")
+
         file_bytes = await file.read()
-        allowed_file_size = config.get("allowed_file_size_limit", 10 * 1024 * 1024)
-        if len(file_bytes) > allowed_file_size:
+        allowed_size = config.get("allowed_file_size_limit", 10 * 1024 * 1024)
+        if len(file_bytes) > allowed_size:
             raise HTTPException(
                 status_code=400, detail="File size exceeds allowed limit."
             )
 
         file_hash = compute_file_hash(file_bytes)
-        logger.debug("Computed file hash: %s", file_hash)
+        logger.debug("Computed SHA256 file hash: %s", file_hash)
 
         collection_name = config.get("qdrant", {}).get(
             "collection_name", "default_collection"
         )
         cached_text = get_extracted_text_from_qdrant(file_hash, collection_name)
-        # print("---------------------------------------------------------")
-        # print("cached text: \n%s", cached_text)
-        # print("---------------------------------------------------------")
+
         if cached_text:
-            logger.info(
-                "File '%s' already processed; using cached extracted text.",
-                file.filename,
-            )
+            logger.info("Using cached extracted text for '%s'.", file.filename)
             extracted_text = cached_text
-            logger.info("Extracted text: \n%s", extracted_text)
         else:
             unique_id = str(uuid.uuid4())
             processed_dir = config.get("processed_dir", "processed_dir")
             model_is_vision = config.get("model_type_is_vision", False)
+
             if model_is_vision:
-                logger.info("Configured to use vision model; skipping text extraction.")
+                logger.info("Vision model in use — skipping OCR/text extraction.")
                 extracted_text = file_bytes.decode("utf-8", errors="replace")
             else:
                 temp_filename = f"{unique_id}_{file.filename}"
                 file_path = save_file_to_disk(file_bytes, processed_dir, temp_filename)
-                logger.info("Saved file as %s for text extraction.", file_path)
+                logger.info("Saved file for extraction: %s", file_path)
 
                 extracted_text = extract_text_from_file(file_path)
-                print("Extracted text: \n", extracted_text)
-                logger.info(
-                    "Extracted text of length %d from '%s'.",
-                    len(extracted_text),
-                    file_path,
-                )
-                # logger.info("Extracted text: \n", extracted_text)
-        # Generate summary immediately using the chatbot instance.
+                logger.debug("Extracted text preview:\n%s", extracted_text[:300])
+
+        # Generate summary using chatbot
         model_is_vision = config.get("model_type_is_vision", False)
         if model_is_vision:
             summary = chatbot_instance.generate_summary_threadsafe(
                 file_bytes, min_words, max_words
             )
         else:
-            logger.info("Extracted text: \n", extracted_text)
-
             summary = chatbot_instance.generate_summary_threadsafe(
-                # extracted_text.encode("utf-8"),
-                extracted_text,
-                min_words,
-                max_words,
+                extracted_text, min_words, max_words
             )
-        logger.info("Generated summary for file '%s'.", file.filename)
-        update_job(job_id, "Completed")
 
-        # If file was not previously processed, launch a background task to compute embeddings and save metadata.
+        # update_job(job_id, "Completed")
+        logger.info("Generated summary for file '%s'.", file.filename)
+
+        # Background persistence if new file
         if not cached_text:
             llama_host = config.get("llama_server_host", "127.0.0.1")
             llama_port = int(config.get("llama_server_port", 8080))
@@ -135,10 +113,14 @@ async def generate_file_summary(
                 daemon=True,
             )
             background_thread.start()
-            logger.info("Launched background task for saving file to Qdrant.")
-        return {"job_id": job_id, "summary": summary}
+            logger.info(
+                "Background thread launched to save to Qdrant for '%s'.", file.filename
+            )
+        return {"summary": summary}
+        # return {"job_id": job_id, "summary": summary}
+
     except Exception as e:
-        if job_id is not None:
-            update_job(job_id, "Aborted")
-        logger.exception("Error in /gen_summary endpoint: %s", e)
+        # if job_id:
+        # update_job(job_id, "Aborted")
+        logger.exception("Unhandled error in /gen_summary: %s", e)
         raise HTTPException(status_code=500, detail=str(e))

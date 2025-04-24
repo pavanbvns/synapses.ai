@@ -63,6 +63,7 @@ async def find_obligations(file: UploadFile = File(...)):
                 file.filename,
             )
             extracted_text = cached_text
+            unique_id = None
         else:
             unique_id = str(uuid.uuid4())
             processed_dir = config.get("processed_dir", "processed_dir")
@@ -83,9 +84,9 @@ async def find_obligations(file: UploadFile = File(...)):
 
         # Prepare the prompt to extract obligations
         obligations_prompt = f"""Document text: {extracted_text}\n
-            Identify and extract all obligations from the provided document. For each obligation, extract the following attributes:\n"
+            Identify and extract all obligations from the provided document. For each obligation, extract the following attributes:
             - Obligation Summary
-            - Obligation Type (choose from: Payment, Delivery, Service, Warranty/Guarantee, Intellectual Property, Termination, Other)\n"
+            - Obligation Type (choose from: Payment, Delivery, Service, Warranty/Guarantee, Intellectual Property, Termination, Other)
             - Obligation Start Date (if specified, otherwise 'NOT SPECIFIED')
             - Obligation End Date (if specified, otherwise 'NOT SPECIFIED')
             - Obligation Recurrence (Yes/No)
@@ -101,8 +102,7 @@ async def find_obligations(file: UploadFile = File(...)):
 
         update_job(job_id, "Completed")
 
-        # If file was not cached, schedule a background task to compute embedding and save metadata
-        if not cached_text:
+        if not cached_text and unique_id:
             llama_host = config.get("llama_server_host", "127.0.0.1")
             llama_port = int(config.get("llama_server_port", 8080))
 
